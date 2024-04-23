@@ -18,24 +18,32 @@
   </properties>
 
   <dependencies>
-<dependency>
-      <groupId>jakarta.platform</groupId>
-      <artifactId>jakarta.jakartaee-web-api</artifactId>
-      <version>9.1.0</version>
-      <scope>provided</scope>
-    </dependency>
-<!--<dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>${junit.version}</version>
-      <scope>test</scope>
-    </dependency>
       <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-engine</artifactId>
-        <version>${junit.version}</version>
-        <scope>test</scope>
-      </dependency> --> </dependencies>
+         <groupId>jakarta.platform</groupId>
+         <artifactId>jakarta.jakartaee-web-api</artifactId>
+         <version>9.1.0</version>
+         <scope>provided</scope>
+      </dependency>
+      <!-- Hikari -->
+      <dependency>
+          <groupId>com.zaxxer</groupId>
+          <artifactId>HikariCP</artifactId>
+          <version>5.0.1</version>
+      </dependency>
+      <!-- Gson -->
+      <dependency>
+          <groupId>com.google.code.gson</groupId>
+          <artifactId>gson</artifactId>
+          <version>2.10.1</version>
+      </dependency>
+      <!-- PostgreSQL JDBC-->
+      <dependency>
+          <groupId>org.postgresql</groupId>
+          <artifactId>postgresql</artifactId>
+          <version>42.6.0</version>
+      </dependency>
+
+  </dependencies>
 
   <build>
     <plugins>
@@ -44,5 +52,6 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.2</version>
       </plugin>    </plugins>
+      <finalName>BrainBenchmark</finalName>
   </build>
 </project>
