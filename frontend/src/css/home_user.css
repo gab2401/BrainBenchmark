@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Courier New, sans-serif;
+    background-color:  #5994B4;
+    color: #9f2ac3;
+}
+
+.header {
+    width: 100%;
+    padding: 10px 0;
+    background-image: linear-gradient(to right, #9f2ac3 , #800080 , #800080);;
+    color: yellow;
+    text-align: left;
+    position: absolute;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.img0 img {
+    width: 250px;
+    height: 350px;
+}
+
+.container1 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 45%;
+    left: 50%; /* Sinistra */
+    margin-top: -180px; /* Altezza */
+    margin-left: -250px; /* Larghezza */
+    padding: 20px;
+    text-align: center;
+}
+
+.game1-button {
+    background-color: yellow;
+    color: #9f2ac3;
+    font-family: "DIN Next LT W04", sans-serif;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 40%;
+    left: 20px; /* Posiziona il pulsante a sinistra */
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.game2-button {
+    background-color: yellow;
+    color: #9f2ac3;
+    font-family: "DIN Next LT W04", sans-serif;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 40%;
+    right: 20px; /* Posiziona il pulsante a destra */
+    transform: translateY(-50%);
+    border: purple;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.game1-button .game2-button button:hover {
+    color: #00ffff;
+}
+
+.image-container {
+    display: inline-block;
+}

@@ -1,0 +1,35 @@
+/*.buttons button {
+    font-family: "DIN Next LT W04", sans-serif;
+    width: 200px;
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #9f2ac3;
+    color: yellow;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.buttons button:hover {
+    color: #00ffff;
+}*/
+
+.button {
+    font-family: "DIN Next LT W04", sans-serif;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #9f2ac3;
+    color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #800080;
+    color: #00ffff;
+}
